@@ -1,0 +1,483 @@
+@charset "utf-8";
+/* CSS Document */
+
+    *{
+		margin:0px;
+		padding:0px;}
+	#top{
+		background:url(../images/bg-content-top.jpg) no-repeat #f7f7f7 ;}
+	#J_video{
+		background:url(../images/bg-content-bottom-2018.jpg) no-repeat center bottom;
+		height:1450px;}
+	#Jrecom{
+		margin-bottom:50px;
+		display:block;
+		height:380px;
+		width:1270px;
+		margin:0 auto;
+		padding-bottom:50px;}
+	#promo-video{
+		width:auto;}
+	#div0{
+            position: absolute;
+            width: 400px;  
+            height: 330px;  
+            overflow: hidden; 
+            border-radius:5px;
+			margin-top:50px;}
+	#J_promoVideo {
+            position: absolute;z-index:9px;  
+            width: calc(400px * 5);
+        } 
+	.play{  
+            animation: ma 20s ease-out infinite;
+        } 
+	.promo-video-item{
+		display:inline-block;
+		position:relative;
+		box-sizing:content-box;
+		float:left;}
+	#J_promoVideo:hover{
+		animation-play-state:paused;}
+	#J_promoVideo img{
+		float: left;  
+        width:400px;  
+        height:330px;}
+	@keyframes ma {
+            0%,20% {        margin-left: 0px;       }  
+            25%,40% {       margin-left: -400px;    }  
+            45%,60% {       margin-left: -800px;    }  
+            65%,80% {       margin-left: -1200px;    }  
+            85%,100% {      margin-left: -1600px;   }  
+        } 
+	.num{  
+            position:absolute;
+			z-index:10;  
+            display:inline-block;  
+			right:30px;
+			top:290px;  
+            border-radius:100%;
+            width:23px;
+			height:23px;  
+            line-height:25px;  
+            cursor:pointer;
+            text-align:center;  
+            opacity:0.5;  
+        } 
+	#a1,#a2,#a3,#a4,#a5{
+		background:url(../images/lol_spr.png) no-repeat -477px -25px;}
+	.num :hover{
+		background-position:-477px -0px;} 
+	.num:hover,#J_promoVideo:hover{animation-play-state:paused;}  
+	.num:nth-child(2){margin-right:25px}  
+	.num:nth-child(3){margin-right:50px}  
+	.num:nth-child(4){margin-right:75px}  
+	.num:nth-child(5){margin-right:100px}
+	
+	
+	#video-recommend{
+		width:840px;
+		height:350px;
+		margin-top:50px;
+		float:right;
+		display:inline;}
+	#video-recommend ul li{
+		float:left;}
+	.pv-list{
+		list-style:none;}
+	.pv-list li{
+		margin-right:20px;
+		margin-bottom:20px;}
+	.pv-lnk{
+		display:block;
+		width:100%;
+		height:100%;
+		position:relative;
+		text-decoration:none;
+		color:#555;}
+	.pv-lnk img{
+		width: 190px;
+		height: 110px;
+		display: block;
+		margin-bottom: 5px;}
+	.shadow1{
+		display:block;
+		position:absolute;
+		right:0px;
+		bottom:50px;}
+	.shadow1 i {
+		background: rgba(17,17,17,.8);
+		font-style: normal;
+		color: #ddd;
+		padding: 0 4px;}
+	.pv-list a:hover .hide{
+		display:block;
+		width:65px;
+		height:65px;
+		position:absolute;
+		left:60px;
+		top:20px;}
+	.pv-list a:hover{
+		background-color:#EEE;
+		color:#E0BD86;}
+	.pv-lnk h5{
+		font-weight: normal;
+		line-height: 20px;
+		height: 40px;
+		width:190px;
+		overflow: hidden;
+		font-size: 14px;}
+	.pv-lnk .hide{
+		display:none;}
+		
+	#newvideo{
+		width:1270px;
+		height:395px;
+		clear:both;
+		margin:0 auto;
+		position:relative;
+		margin-bottom:50px;}
+	#left_top{
+		width:820px;
+		border-bottom:#EDEDEE solid;
+		position:relative;
+		margin-bottom:20px;}
+	#left_top h3{
+		padding-left: 5px;
+		line-height: 40px;
+		color: #404040;
+		font-size: 26px;
+		font-weight: normal;
+		clear:both;}
+	#title-btn-more{
+		text-decoration:none;
+		position:absolute;
+		right: 8px;
+		top: 14px;
+		font-size:14px;
+		background:transparent url(../images/lol_spr.png) no-repeat scroll;
+		background-position:-30px -110px;
+		width:22px;
+		height:10px;
+		}
+	#title-btn-more:hover{
+		background:transparent url(../images/lol_spr.png) no-repeat scroll;
+		background-position:-52px -110px;}
+	#btn-submission {
+		position: absolute;
+		height: 32px;
+		padding: 0 3px;
+		color: #515151;
+		right: 50px;
+		top: 2px;
+		line-height: 32px;
+		font-size: 16px;
+		text-decoration:none;}
+	#left_top a:hover{
+		color:#E0BD86;}
+	#left_conter{
+		width:840px;}
+	.pv-list1 li{
+		list-style:none;
+		float:left;
+		margin-right:20px;
+		margin-bottom:20px;}
+	.pv-lnk1{
+		display:block;
+		width:100%;
+		height:100%;
+		position:relative;
+		text-decoration:none;
+		color:#555;}
+	.pv-lnk1 img{
+		width: 190px;
+		height: 110px;
+		display: block;
+		margin-bottom:5px;}
+	.pv-list1 .hide1{
+		display:none;}
+	.pv-lnk1 h5{
+		font-weight: normal;
+		line-height: 20px;
+		height: 40px;
+		width:190px;
+		overflow: hidden;
+		font-size: 14px;}
+	.pv-list1 a:hover .hide1{
+		display:block;
+		position:absolute;
+		width:65px;
+		height:65px;
+		left:60px;
+		top:20px;}
+	.pv-list1 a:hover{
+		background-color:#EEE;
+		color:#E0BD86;}
+	
+	#right{
+		position:absolute;
+		right:0;
+		top:0;
+		float:right;
+		width:420px;
+		height:402.4px;}
+	#right_meun{
+		position:absolute;
+		top:0px;
+		right:0px;
+		width:420px;}
+	#switch li{
+		list-style:none;
+		float:left;
+		width:140px;
+		display:inline;}
+	#switch li a{
+		text-decoration:none;
+		font-size:16px;
+		display:block;
+		height:40px;
+		text-align:center;
+		line-height:2em;
+		color:#555;
+		border-bottom:solid #EDEDEE;
+		cursor:pointer;
+		 -moz-user-select:none; /*火狐*/
+             -webkit-user-select:none; /*webkit浏览器*/
+             -ms-user-select:none; /*IE10*/
+             -khtml-user-select:none; /*早期浏览器*/}
+	#switch a:hover{
+		color:#D1AB57;
+		border-bottom:solid #d1ab57;}
+	
+	#right_conter{
+		position:absolute;
+		top:64.4px;
+		width:400px;}
+	#hidea1 ol li a{
+		color:#555;
+		text-decoration:none;
+		display: inline;
+		max-width: 290px;
+		height: 25px;
+		line-height: 25px;
+		font-size: 14px;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		overflow: hidden;}
+	#hidea1 ol{
+		list-style:none;
+		}
+	#hidea1 ol li{
+		margin-bottom:10px;
+		position:relative;
+		}
+	.span00 .em00{
+		background:transparent url(../images/lol_spr.png) no-repeat scroll;
+		position: absolute;
+		right:55px;
+		top: 5px;
+		width: 13px;
+		height: 13px;
+		background-position: -17px -110px;}
+	.span00{
+		color:#a4a4a4;
+		float:right;
+		margin-right:10px;
+		line-height:2em;
+		font-size:12px;}
+	.i01{
+		width:25px;
+		float:left;
+		margin-right:10px;
+		height:25px;
+		text-indent: -999px;
+		overflow:hidden;}
+	.i02{
+		width:25px;
+		float:left;
+		margin-right:10px;
+		height:25px;
+		overflow:hidden;
+		font-style: normal;
+		text-align: center;
+		color: #8a8a8a;
+		line-height:2em;
+		font-size: 12px;}
+	#hidea1 ol li a:hover{
+		color:#D1B6AA;}
+	.img00{
+		background:url(../images/lol_spr.png) no-repeat;
+		background-position:-452px -54px;}
+	.img01{
+		background:url(../images/lol_spr.png) no-repeat;
+		background-position:-452px -25px;}
+	.img02{
+		background:url(../images/lol_spr.png) no-repeat;
+		background-position:-452px 0px;}
+	#hidea2 ol li a{
+		color:#555;
+		text-decoration:none;
+		display: inline;
+		max-width: 290px;
+		height: 25px;
+		line-height: 25px;
+		font-size: 14px;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		overflow: hidden;}
+	#hidea2 ol{
+		list-style:none;
+		}
+	#hidea2{
+		display:none;}
+	#hidea2 ol li{
+		margin-bottom:10px;
+		position:relative;
+		}
+	#hidea3 ol li a{
+		color:#555;
+		text-decoration:none;
+		display: inline;
+		max-width: 290px;
+		height: 25px;
+		line-height: 25px;
+		font-size: 14px;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		overflow: hidden;}
+	#hidea3 ol{
+		list-style:none;
+		}
+	#hidea3 ol li{
+		margin-bottom:10px;
+		position:relative;
+		}
+	#hidea3{
+		display:none;}	
+	
+	#switch a:hover #right_conter #hide2 ol{
+		display:block;}
+		
+	#foot{
+		width:1270px;
+		margin:0 auto;}
+	#tab-sort{
+		margin:0 auto;
+		margin-bottom:20px;
+		position:relative;}
+	#tab-sort h3{
+		padding-left: 5px;
+		line-height: 40px;
+		color: #404040;
+		font-size: 26px;
+		font-weight: normal;
+		clear:both;
+		border-bottom:#EDEDEE solid;}
+	#name-many li{
+		list-style:none;
+		float:left;}
+	#name-many{
+		position: absolute;
+		left: 140px;
+		top: 0;
+		height: 43px;
+		text-align: center;}
+	#name-many li a{
+		text-decoration:none;
+		display: block;
+		height: 40px;
+		line-height: 40px;
+		color: #666;
+		font-size: 16px;
+		padding: 0 11px;}
+	#name-many li a:hover{
+		color:#D1AB57;
+		border-bottom:solid #d1ab57;}
+	#title-more{
+		height:32px;
+		position:absolute;
+		right:0;
+		top:0;
+		width:50px;}
+	#title-more i{
+		background:url(../images/lol_spr.png) no-repeat -30px -110px;
+		position: absolute;
+		width: 22px;
+		height: 10px;
+		right:30px;
+		top:15px;
+		cursor: pointer;}
+	#title-more:hover i{
+		background-position:-52px -110px;}
+	#content{
+		height:400px;
+		margin-bottom:20px;
+		}
+	#content ul li{
+		list-style:none;
+		float:left;
+		margin-bottom:20px;
+		margin-right:20px;
+		position:relative;
+		width:183.3333333333px;
+		height:180px;}
+	.hide2{
+		display:none;}
+	#content ul li:hover .hide2{
+		display:block;
+		position:absolute;
+		width:65px;
+		height:65px;
+		left:60px;
+		top:-70px;}
+	#content ul li:hover{
+		background-color:#EEE;}
+	#content ul li:hover .vname a{
+		color:#C49F58;}
+	.picture {
+                                 width: 200px;
+                                height: 100px;
+                             }
+	#demo{
+		position:relative;
+		margin-left: 50px;
+		margin = auto
+	
+		}
+	#demo0{
+		
+		margin-left: 800px;
+		font-size:25px;
+		}
+	#demo3{
+		dispaly:block;
+		margin-top:50px;
+		margin-left:250px;
+		
+		}
+	#pic{
+		width:1000px;
+		}
+	#demo4{
+		position:relative;
+		font-size:40px;
+		color:red;
+		float:left;
+		margin-top:0px;
+		margin-left:300px;
+		font-family: arial;
+		}
+	#d0{
+		position:relative;
+		margin:auto0;
+	}
+		
+
+
+
+
+
+
+
+
+
